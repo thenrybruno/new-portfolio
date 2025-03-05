@@ -1,11 +1,12 @@
 'use client'
 
-import { CircleX, Menu, X } from "lucide-react";
+import { CircleX, Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
 import logo from '../assets/new-logo.png'
+import { ItensNav } from "@/lib/NavItens";
 
 
 export default function Navbar() {
@@ -13,14 +14,6 @@ export default function Navbar() {
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
-
-    const navItems = [
-        { name: "Inicio", href: "/" },
-        { name: "Sobre", href: "/about" },
-        { name: "Projetos", href: "/news" },
-        { name: "Tecnologias", href: "/contact" },
-        { name: "Contatos", href: "/contact" },
-    ]
 
     return (
         <nav className="block w-full max-w-screen px-4 py-4 mx-auto bg-opacity-90 sticky top-3 shadow lg:px-8 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
@@ -56,7 +49,7 @@ export default function Navbar() {
                         </button>
                     </div>
                     <ul className="flex flex-col h-full gap-4 p-4">
-                        {navItems.map((item, index) => (
+                        {ItensNav.map((item, index) => (
                             <li
                                 key={index}
                                 className="flex items-center p-1 text-lg gap-x-2 text-first-red hover:text-gray-400"
@@ -72,7 +65,7 @@ export default function Navbar() {
                 {/* Desktop Menu */}
                 <div className="hidden lg:block">
                     <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-                        {navItems.map((item, index) => (
+                        {ItensNav.map((item, index) => (
                             <li
                                 key={index}
                                 className="flex items-center p-1 text-lg gap-x-2 text-gray-200 transition-colors duration-300 hover:text-gray-300"
