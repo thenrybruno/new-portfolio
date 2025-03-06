@@ -7,7 +7,7 @@ interface DeveloperData {
 }
 
 export const DeveloperData: DeveloperData = {
-    name: 'Bruno L.',
+    name: 'Bruno Luiz',
     avatar: '/perfil2.png',
     email: 'mailto:thenrybruno@hotmail.com.br',
     github: 'https://github.com/thenrybruno',
