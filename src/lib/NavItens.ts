@@ -4,9 +4,9 @@ interface ItensNav {
 }
 
 export const ItensNav: ItensNav[] = [
-    { name: "Inicio", href: "/" },
-    { name: "Sobre", href: "/about" },
-    { name: "Projetos", href: "/news" },
-    { name: "Tecnologias", href: "/tecnologies" },
-    { name: "Contatos", href: "/contact" },
+    { name: "Inicio", href: "#home" },
+    { name: "Sobre", href: "#about" },
+    { name: "Projetos", href: "#projects" },
+    { name: "Tecnologias", href: "#tecnologies" },
+    { name: "Contatos", href: "#contacts" },
 ]

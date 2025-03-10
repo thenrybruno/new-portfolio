@@ -16,7 +16,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="block w-full max-w-screen px-4 py-4 mx-auto bg-opacity-90 sticky top-3 shadow lg:px-8 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
+        <nav className="block fixed w-full max-w-screen p-3 mx-auto bg-opacity-90 top-0 shadow lg:px-8 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
             <div className="container flex flex-wrap items-center justify-between mx-auto text-gray-200">
                 <div className="mr-4 cursor-pointer py-1.5">
                     <Link href="/" className=" flex items-center">

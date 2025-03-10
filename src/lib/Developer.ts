@@ -1,9 +1,9 @@
 interface DeveloperData {
     name: string
     avatar: string
-    email?: string
-    github?: string
-    linkedin?: string
+    email: string
+    github: string
+    linkedin: string
 }
 
 export const DeveloperData: DeveloperData = {
