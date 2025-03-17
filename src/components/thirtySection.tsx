@@ -9,7 +9,7 @@ import { DeveloperData } from "@/lib/Developer";
 
 export default function ThirtySection() {
     return (
-        <section id="projects" className="min-h-full flex flex-col items-center gap-5 p-8 lg:grid lg:grid-cols-2 lg:px-18 lg:gap-16">
+        <section className="min-h-full flex flex-col items-center gap-5 p-8 lg:grid lg:grid-cols-2 lg:px-18 lg:gap-16">
             {ProjectData.map((item) => (
                 <div key={item.id} className="space-y-7 mt-5 lg:h-[500px]">
                     <h2 className="text-center text-3xl font-bold font-heading text-custom-gradient border border-b-first-red lg:text-5xl">

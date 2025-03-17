@@ -5,7 +5,7 @@ import { GraduationCap, Trophy, User } from "lucide-react";
 
 export default function SecondSection() {
     return (
-        <section id="about" className="min-h-full flex flex-col items-center gap-5 p-8 lg:flex-row lg:justify-center lg:gap-18">
+        <section className="min-h-full flex flex-col items-center gap-5 p-8 lg:flex-row lg:justify-center lg:gap-18">
             <Card className="bg-gray-700 text-gray-200">
                 <TitleCard className="text-first-red">
                     <h2>{CardContent[0].title}</h2>
