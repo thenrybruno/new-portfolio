@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function FourthSection() {
     return (
-        <section id="technologies" className="min-h-full flex flex-col items-center gap-5 p-8 lg:flex-row lg:justify-center lg:items-start lg:gap-10">
+        <section id="technologies" className="min-h-full flex flex-col items-center gap-8 p-8 lg:flex-row lg:justify-center lg:items-start lg:gap-10">
             <CardPTechnologies>
                 <li><h1 className="text-4xl font-heading font-bold -mt-3">Front-End</h1></li>
                 {FrontEndTechnology.map((item) => (

@@ -21,7 +21,7 @@ export default function ThirtySection() {
                             {item.description}
                         </p>
                     </CardProjects>
-                    <Link className="flex gap-5 text-gray-200 w-[140px] transition-colors duration-300 hover:text-second-red" href={item.url} target="blank">
+                    <Link className="flex gap-5 text-gray-200 w-[140px] ml-5 transition-colors duration-300 hover:text-second-red" href={item.url} target="blank">
                         <span>Acessar Site</span>
                         <ArrowUpRight />
                     </Link>
