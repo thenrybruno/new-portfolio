@@ -15,7 +15,7 @@ export default function ThirtySection() {
                     <h2 className="text-center text-3xl font-bold font-heading text-custom-gradient border border-b-first-red lg:text-5xl">
                         {item.projectName}
                     </h2>
-                    <CardProjects>
+                    <CardProjects className="duration-300 hover:transition-transform hover:scale-105">
                         <Image className="w-[80%] lg:w-[90%]" src={item.image} alt={`Imagem do projeto ${item.projectName}`} width={200} height={150} />
                         <p className="text-center text-gray-300 lg:text-[18px]">
                             {item.description}

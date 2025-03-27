@@ -30,7 +30,6 @@ export default function FifthSection() {
                     </Link>
                 </div>
             </div>
-            <br /><br /><br /><br />
         </section>
     )
 }

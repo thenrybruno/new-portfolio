@@ -1,4 +1,3 @@
-import Navbar from "@/components/navbar";
 import "./globals.css";
 
 import type { Metadata } from "next";
@@ -29,9 +28,6 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className={`${oxanium.variable} ${montserrat.variable}`}>
       <body className="bg-gray-900 text-gray-100 antialiased bg-[url(/background.png)] bg-no-repeat bg-top md:bg-right-top">
-        <header>
-          <Navbar />
-        </header>
         <main>
           {children}
         </main>

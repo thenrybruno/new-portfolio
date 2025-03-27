@@ -23,7 +23,6 @@ export default function Navbar() {
                         <Image className="w-16" src={logo} alt="BCode - Desenvolvimento web" />
                         <span className="text-custom-gradient text-3xl"> - BCode</span>
                     </Link>
-
                 </div>
 
                 <div className="lg:hidden">
