@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <footer className='w-full max-w-screen p-3 space-y-5 my-5'>
             <div className="mr-4 cursor-pointer flex items-center justify-center">
-                <Link href="/" className=" flex items-center">
+                <Link href="/" className=" flex items-center duration-300 hover:transition-transform hover:scale-110">
                     <Image className="w-16" src={logo} alt="BCode - Desenvolvimento web" />
                     <span className="text-custom-gradient text-3xl"> - BCode</span>
                 </Link>
